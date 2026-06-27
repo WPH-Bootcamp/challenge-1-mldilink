@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,26 +9,117 @@
 
   <body>
     <!-- Code Here -->
-    <div class="container">
-      <h1>Simple Landing Page</h1>
+    <h1>Simple Landing Page</h1>
 
+    <div class="container">
       <header class="header">
-        <nav>
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <nav class="navbar">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./assets/pngtree-embed-and-code-icons-vector-png-image_16396342.png"
+              alt="brand icon"
+              height="40"
+            />
+            Simple <span class="create">Code</span>
+          </a>
+          <ul class="nav-links">
+            <li><a href="#Beranda">Beranda</a></li>
+            <li><a href="#Materi">Materi</a></li>
+            <li><a href="#Tentang">Tentang</a></li>
+            <li><a href="#Kontak">Kontak</a></li>
           </ul>
         </nav>
       </header>
 
-      <aside class="sidebar"></aside>
+      <aside class="sidebar">
+        <h2 class="sidebar-title">Menu</h2>
+
+        <ul class="sidebar-menu">
+          <li>
+            <a href="#">
+              <img src="./assets/25694.png" alt="Beranda" />
+              <span>Beranda</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/100734-200.png" alt="Materi" />
+              <span>Materi</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/task-list-add.svg" alt="Tugas" />
+              <span>Tugas</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/768818.png" alt="Catatan" />
+              <span>Catatan</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <img src="./assets/81020.png" alt="Pengaturan" />
+              <span>Pengaturan</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+
       <main class="main-content">
-        <section>
-          <h2>Main Content</h2>
-          <p>This is the main content of the landing page.</p>
+        <section class="welcome-section">
+          <h2>Selamat Datang!</h2>
+          <p>
+            Tempat belajar sederhana untuk membantu<br />
+            kamu memahami berbagai materi dengan mudah.
+          </p>
+        </section>
+        <section class="course-section">
+          <h3>Materi Terbaru</h3>
+          <div class="box-cards">
+            <div class="cards">
+              <img
+                class="card-img"
+                src="./assets/e5y5ptPSFg2LXVAtEYUBr1rx.png"
+                alt="html image"
+              />
+              <h4>HTML Dasar</h4>
+              <p>Belajar struktur dasar<br />pembuatan halaman web.</p>
+              <button>Pelajari</button>
+            </div>
+            <div class="cards">
+              <img class="card-img" src="./assets/css.png" alt="css image" />
+              <h4>CSS Dasar</h4>
+              <p>Belajar styling untuk<br />mempercantik tampilan web.</p>
+              <button>Pelajari</button>
+            </div>
+            <div class="cards">
+              <img
+                class="card-img"
+                src="./assets/167072911-dc31eac8-6885-4a05-9c25-279ecce22a79.png"
+                alt="javascript image"
+              />
+              <h4>JavaScript Dasar</h4>
+              <p>Belajar dasar interaktivitas<br />pada halaman web.</p>
+              <button>Pelajari</button>
+            </div>
+          </div>
+        </section>
+        <section class="about-section">
+          <h3>Tentang Simple Code</h3>
+          <p>
+            Simple code adalah website pembelajaran yang di buat untuk
+            pemula.<br />Materi disusun dengan bahasa yang muda dipahami.
+          </p>
         </section>
       </main>
+
       <footer>
         <p>&copy; 2026 My Landing Page. All rights reserved.</p>
       </footer>
