@@ -6,14 +6,13 @@ body {
 }
 
 /* Header Styles */
-
 header {
   background-color: #ffffff;
 }
 
 .container {
-  max-width: 1200px;
   width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -205,6 +204,7 @@ h3 {
   color: #2563eb;
 }
 
+/* Reasons Section Style */
 .reasons {
   padding: 20px 0;
 }
@@ -270,4 +270,15 @@ h3 {
   border-radius: 8px;
   border: none;
   margin-top: 24px;
+}
+
+/* Footer Style */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
 }
