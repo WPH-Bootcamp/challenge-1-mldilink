@@ -81,6 +81,7 @@ header {
 .hero-image img {
   width: 100%;
   max-width: 500px;
+  border-radius: 12px;
   height: auto;
 }
 
@@ -167,11 +168,11 @@ h3 {
   padding: 40px 0 30px 0;
 }
 
-.course-title {
+.title {
   text-align: center;
 }
 
-.course-title img {
+.title img {
   margin-top: -20px;
 }
 
@@ -202,4 +203,71 @@ h3 {
 .card a {
   text-decoration: none;
   color: #2563eb;
+}
+
+.reasons {
+  padding: 20px 0;
+}
+
+.reasons-feature {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 32px;
+}
+
+.reasons-item {
+  text-align: center;
+}
+
+.reasons-item img {
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.reasons-text h4 {
+  margin-bottom: 0;
+}
+
+.reasons-text p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #6b7280;
+}
+
+.start-plan {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2563eb;
+  border-radius: 12px;
+  padding: 40px 40px;
+  margin: 40px 100px 20px 100px;
+}
+
+.plan-text {
+  color: #ffffff;
+  flex: 1;
+}
+
+.plan-img {
+  flex: 1;
+}
+
+.plan-img img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  height: auto;
+}
+
+.plan-button {
+  background-color: #ffffff;
+  color: #2563eb;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 24px;
 }
