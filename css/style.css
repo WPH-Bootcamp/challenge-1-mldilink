@@ -28,6 +28,8 @@ header {
 .logo {
   font-size: 24px;
   font-weight: bold;
+  color: #111827;
+  text-decoration: none;
 }
 
 .logo-text {
@@ -40,9 +42,9 @@ header {
   gap: 48px;
 }
 
-a {
+.nav-links a {
   text-decoration: none;
-  color: #111827;
+  color: #374151;
 }
 
 .nav-links a:hover {
@@ -58,7 +60,6 @@ a {
 }
 
 /* Hero Section Styles */
-
 .hero {
   padding: 40px 0;
 }
@@ -158,4 +159,47 @@ h3 {
   font-size: 14px;
   line-height: 1.6;
   color: #6b7280;
+}
+
+/* Course Section Styles */
+.course {
+  background-color: #ffffff;
+  padding: 40px 0 30px 0;
+}
+
+.course-title {
+  text-align: center;
+}
+
+.course-title img {
+  margin-top: -20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  border: 2px solid #e5e7eb;
+  padding: 20px;
+  width: 200px;
+  height: 100%;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h4 {
+  margin-top: 0;
+}
+
+.card a {
+  text-decoration: none;
+  color: #2563eb;
 }
